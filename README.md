@@ -8,7 +8,7 @@
  <img src="https://img.shields.io/badge/-ApolloGraphQL-311C87?style=for-the-badge&logo=apollo-graphql">
  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
 </p>
-<br>
+
 
 ## Idea: 💡
 Here will be concentrated the API from "Graphql Crud Users Front" project. In it will be the integration between the users and their posts with the MongoDB.\
@@ -23,13 +23,11 @@ This project is a GraphQl API made with VanillaJS, using GraphQl Apollo and Mong
 ## Running the project: 🚀
 To run and view the project in **development mode**, you will need to follow the next steps.
 
-
 ### Installing dependencies:
 Run the command to install the project dependencies.
    ```sh
    yarn install
    ```
-
 ### Configuring env file:
 To configure the project's environment variable file, follow the steps below:
 - Step 1- Create an ```.env``` file at the root of the project;
@@ -43,7 +41,6 @@ The scripts below run the project build.
    yarn dev
    ```
    ###### Command to run the project in development mode
-
    <br>
 
 ### Conclusion: 👍
