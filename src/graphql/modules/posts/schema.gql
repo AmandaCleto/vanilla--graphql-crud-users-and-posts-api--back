@@ -19,5 +19,5 @@ input PostInput {
 type Mutation {
     createPost(data: PostInput!): Post!
     updatePost(id: ID, data: PostInput!): Post!
-    deletePost(id: Id!): Boolean!
+    deletePost(id: ID!): Boolean!
 }

@@ -9,6 +9,9 @@ function startServer({ typeDefs, resolvers }) {
 
     const server = new ApolloServer({ typeDefs, resolvers });
 
+    console.log(typeDefs);
+    console.log(resolvers);
+
     server
         .listen()
         .then(({ url }) => console.log(`🔥 Server is ready at ${url}!`));
