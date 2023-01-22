@@ -4,7 +4,7 @@ import config from "./config/config";
 
 function startServer({ typeDefs, resolvers }) {
     mongoose.connect(
-        `mongodb+srv://${config.DATABASE_CONNECTION_NAME}:${config.DATABASE_CONNECTION_PW}@cluster0.rb0g9se.mongodb.net/?retryWrites=true&w=majority`,
+        `mongodb+srv://${config.DATABASE_CONNECTION_NAME}:${config.DATABASE_CONNECTION_PW}@cluster0.${config.DATABASE_CONNECTION_TYPE}.mongodb.net/?retryWrites=true&w=majority`,
         {
             useNewUrlParser: true,
             useUnifiedTopology: true,
