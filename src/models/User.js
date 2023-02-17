@@ -9,7 +9,6 @@ const Schema = new mongoose.Schema({
         type: String,
         required: true,
     },
-    email: String,
     active: {
         type: Boolean,
         required: true,

@@ -14,5 +14,14 @@ export default {
         updatePost: (_, { id, data }) =>
             Post.findOneAndUpdate(id, data, { new: true }),
         deletePost: async (_, { id }) => !!(await Post.findOneAndDelete(id)),
+        deleteAllPostFromUserId: async (_, { id }) => {
+            var listId = [id];
+            try {
+                await Post.deleteMany({ author: { $in: listId } });
+                return true;
+            } catch {
+                return false;
+            }
+        },
     },
 };

@@ -3,7 +3,6 @@ type User {
     firstName: String!
     lastName: String!
     fullName: String!
-    email: String
     active: Boolean!
 }
 
@@ -15,7 +14,6 @@ type Query {
 input UserInput {
     firstName: String!
     lastName: String!
-    email: String
     active: Boolean!
 }
 
