@@ -1,0 +1,93 @@
+#get user id
+query {
+    user(id: "") {
+        _id
+        fullName
+        firstName
+        lastName
+        active
+    }
+}
+
+#get users
+query {
+    users {
+        _id
+        fullName
+        firstName
+        lastName
+        active
+    }
+}
+
+#get posts
+query {
+    posts {
+        _id
+        content
+        title
+        author {
+            _id
+            firstName
+            fullName
+            lastName
+            active
+        }
+    }
+}
+
+#get post id
+query {
+    post(id: "") {
+        content
+        title
+        _id
+        author {
+            fullName
+            firstName
+            _id
+            active
+            lastName
+        }
+    }
+}
+
+#delete all posts from an user id
+mutation {
+    deleteAllPostFromUserId(id: "")
+}
+
+#create post for an user id
+mutation {
+    createPost(
+        data: {
+            content: "teste conteudo"
+            title: "teste titulo"
+            author: ""
+        }
+    ) {
+        content
+        _id
+        title
+    }
+}
+
+#create an user
+mutation {
+    createUser(data: { firstName: "name", lastName: "name", active: true }) {
+        firstName
+        _id
+        fullName
+        lastName
+    }
+}
+
+#delete a post
+mutation {
+    deletePost(id: "")
+}
+
+#delete an user
+mutation {
+    deleteUser(id: "")
+}
