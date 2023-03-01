@@ -21,7 +21,7 @@ export default {
         },
         updateUser: (_, { id, data }) =>
             User.findOneAndUpdate(id, data, { new: true }),
-        deleteUser: async (_, { id }) => !!(await User.findOneAndDelete(id)),
+        deleteUser: async (_, { id }) => !!(await User.findByIdAndDelete(id)),
     },
     Subscription: {
         userAdded: {
