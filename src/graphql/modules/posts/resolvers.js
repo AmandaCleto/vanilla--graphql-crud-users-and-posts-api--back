@@ -12,8 +12,8 @@ export default {
     Mutation: {
         createPost: (_, { data }) => Post.create(data),
         updatePost: (_, { id, data }) =>
-            Post.findOneAndUpdate(id, data, { new: true }),
-        deletePost: async (_, { id }) => !!(await Post.findOneAndDelete(id)),
+            Post.findByIdAndUpdate(id, data, { new: true }),
+        deletePost: async (_, { id }) => !!(await Post.findByIdAndDelete(id)),
         deleteAllPostFromUserId: async (_, { id }) => {
             var listId = [id];
             try {

@@ -20,7 +20,7 @@ export default {
             return user;
         },
         updateUser: (_, { id, data }) =>
-            User.findOneAndUpdate(id, data, { new: true }),
+            User.findByIdAndUpdate(id, data, { new: true }),
         deleteUser: async (_, { id }) => !!(await User.findByIdAndDelete(id)),
     },
     Subscription: {

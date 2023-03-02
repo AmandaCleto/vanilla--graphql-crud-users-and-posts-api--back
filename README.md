@@ -9,10 +9,17 @@
  <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white">
 </p>
 
+## 📷 Illustrative image of the Figma:
+![](https://amandacleto.github.io/images-for-projects/public/images/github-readme\graphql-users-posts\graphql-playground.png)
+
+
+<br>
+
 
 ## Idea: 💡
 Here will be concentrated the API from "Graphql Crud Users Front" project. In it will be the integration between the users and their posts with the MongoDB.\
-This project is a GraphQl API made with VanillaJS, using GraphQl Apollo and MongoDB.
+This project is a GraphQl API made with VanillaJS, using GraphQl Apollo and MongoDB. It was developed by following the tutorial from [<ins>Mateus Silva</ins>](https://www.youtube.com/watch?v=7RoHxSGVAdU&list=PLPXWI3llyMiK9uw7tfljM2hnQl2qu6CeT) as example.
+
 <br>
 
 ## Functionalities:
@@ -53,6 +60,9 @@ After the first configuration of the project following the steps above, the next
 
 ***GraphQL:***<br>
 [<ins>GraphQL docs</ins>](https://graphql.org/learn/)<br>
+
+***Mateus Silva:***<br>
+[<ins>Mateus Silva Playlist</ins>](https://www.youtube.com/watch?v=7RoHxSGVAdU&list=PLPXWI3llyMiK9uw7tfljM2hnQl2qu6CeT)<br>
 
 
 ---
