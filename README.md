@@ -10,7 +10,7 @@
 </p>
 
 ## 📷 Illustrative image of the Figma:
-![](https://amandacleto.github.io/images-for-projects/public/images/github-readme\graphql-users-posts\graphql-playground.png)
+![](https://amandacleto.github.io/images-for-projects/public/images/github-readme/graphql-users-posts/graphql-playground.png)
 
 
 <br>
